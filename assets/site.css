@@ -254,6 +254,11 @@ nav.primary .sub a:hover, nav.primary .sub a[aria-current="page"] { background: 
 @media (max-width: 560px) { .service { aspect-ratio: auto; min-height: 380px; } .service div { padding: 22px; } .service h3 { font-size: 1.35rem; } }
 
 /* Gallery: three columns of 4:3 photos, portraits two rows tall */
+.work-video { margin: 44px auto 0; max-width: 360px; text-align: left; }
+.work-video video { display: block; width: 100%; height: auto; aspect-ratio: 9 / 16; border-radius: 12px; background: #07080D; }
+.work-video figcaption { margin-top: 12px; }
+.work-video figcaption strong { display: block; font-weight: 600; }
+.work-video figcaption span { font-size: 0.9rem; color: var(--muted); }
 .gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 44px; text-align: left; grid-auto-flow: dense; }
 .gallery figure { margin: 0; position: relative; border-radius: 12px; overflow: hidden; aspect-ratio: 4 / 3; background: var(--panel2); }
 .gallery .tall { grid-row: span 2; aspect-ratio: auto; }
